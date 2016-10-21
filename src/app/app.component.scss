@@ -1,0 +1,23 @@
+html, body, .rtl{
+  direction: rtl !important;
+}
+
+.right {
+  text-align: right;
+}
+
+.enter-card, .center-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.center-card {
+  height: auto;
+}
+.tip-card{
+  background-color: rgba(233,30,99,0.10);
+  margin-bottom: 1rem;
+}
